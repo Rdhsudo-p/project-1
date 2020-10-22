@@ -23,11 +23,11 @@ Part 1 Coding:
 -Created a Dataframe of unique country names
 -Explored the data by observing 'JobSat' & 'CareerSat' columns using groupby
 -Converted responses in 'JobSat' & 'CareerSat' columns to numerical values
-'Very dissatisfied' = 0
-'Slightly dissatisfied' = 1
-'Neither satisfied nor dissatisfied' = 2
-'Slightly satisfied' = 3
-'Very satisfied' = 4
+  'Very dissatisfied' = 0
+  'Slightly dissatisfied' = 1
+  'Neither satisfied nor dissatisfied' = 2
+  'Slightly satisfied' = 3
+  'Very satisfied' = 4
 -Created a dataframe with results only from countries that had 50 or more responses to the 'JobSat' and 'CareerSat' questions to ensure the sample size was large enough to estabish an accurate mean.
 -Created dataframe Country_JobCareer_Sat with means of all countries. Printed the 4 tables of top/bottom 10 using using sort and groupby.
 

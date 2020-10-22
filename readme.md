@@ -1,5 +1,7 @@
 Project 1
 
+Blog and results @ https://ryandh.medium.com/
+
 Dataset used: Stack Overflow Data - 2019 Survey
 
 ATTN: Dataset not included in Github as it is too large. It is available from:

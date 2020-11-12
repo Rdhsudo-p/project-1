@@ -61,7 +61,7 @@ Data Modeling
 		of the dataframe, sorted by Job Satisfaction, then displayed the bottom 10 by sorting them in descending
 		order.
         
-		https://miro.medium.com/max/827/1*GsyO1W5yQPjGYZKCxOotxA.jpeg
+https://miro.medium.com/max/827/1*GsyO1W5yQPjGYZKCxOotxA.jpeg
 		
     Question 2
         - What are the top and bottom 10 countries in relation to Career Satisfaction?
@@ -70,7 +70,7 @@ Data Modeling
 		of the dataframe, this time sorted by Career Satisfaction, then displayed the bottom 10 by sorting them in descending
 		order.
 		
-		https://miro.medium.com/max/761/1*Wss4UNrdhIT4sOCrQCRRaQ.jpeg
+https://miro.medium.com/max/761/1*Wss4UNrdhIT4sOCrQCRRaQ.jpeg
 		
 	Question 3
         - What factors are most important when an employee is selecting a particular job (other than money)?
@@ -80,14 +80,14 @@ Data Modeling
 		I created a dataframe using the response_counter which counts each time that single answer appears in
 		a response string. I was then able to create a horizontal bar graph of the proportions.
 		
-		https://miro.medium.com/max/721/1*M7ZxYMaHqCbYPdxj4kwFTg.png
+https://miro.medium.com/max/721/1*M7ZxYMaHqCbYPdxj4kwFTg.png
 	
 	Question 4
         - What are your greatest challenges to productivity as a developer?
         
 		Similar to the above, but used the WorkChallenges column.
 		
-		https://miro.medium.com/max/721/1*londEZaphYaTy31SMpQIrA.png
+https://miro.medium.com/max/721/1*londEZaphYaTy31SMpQIrA.png
 		
 Evaluation
 

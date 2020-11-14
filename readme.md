@@ -59,7 +59,9 @@ Data Modeling
 		
 		Using the dataframe of mean Jobs and Career Satisfaction values, I displayed the top 10 countries
 		of the dataframe, sorted by Job Satisfaction, then displayed the bottom 10 by sorting them in descending
-		order.
+		order. I would be determining the mean satisfaction of each country, in this instance imputing missing
+		values would reduce the accuracy of this calculation. Therefore the best way to handle rows with missing
+		data would be to remove them with dropna().
         
 https://miro.medium.com/max/827/1*GsyO1W5yQPjGYZKCxOotxA.jpeg
 		
@@ -68,7 +70,9 @@ https://miro.medium.com/max/827/1*GsyO1W5yQPjGYZKCxOotxA.jpeg
 		
 		Using the dataframe of mean Jobs and Career Satisfaction values, I displayed the top 10 countries
 		of the dataframe, this time sorted by Career Satisfaction, then displayed the bottom 10 by sorting them in descending
-		order.
+		order. I would be determining the mean satisfaction of each country, in this instance imputing missing
+		values would reduce the accuracy of this calculation. Therefore the best way to handle rows with missing
+		data would be to remove them with dropna().
 		
 https://miro.medium.com/max/761/1*Wss4UNrdhIT4sOCrQCRRaQ.jpeg
 		
@@ -78,14 +82,20 @@ https://miro.medium.com/max/761/1*Wss4UNrdhIT4sOCrQCRRaQ.jpeg
 		Taking the responses from the JobFactors column, I created a new dataframe and removed the null
 		responses. Using the single_responses function I created a list of the unique single responses. Then
 		I created a dataframe using the response_counter which counts each time that single answer appears in
-		a response string. I was then able to create a horizontal bar graph of the proportions.
+		a response string. I was then able to create a horizontal bar graph of the proportions. No imputation
+		is used for string responses. However when calculating proportions for the graphs, I took note of the
+		way each question was worded. The first question asks 'Of the following factors, which 3 are MOST
+		important to you?' For this question a null value would mean a skipped question and hence null rows
+		are removed.
 		
 https://miro.medium.com/max/721/1*M7ZxYMaHqCbYPdxj4kwFTg.png
 	
 	Question 4
         - What are your greatest challenges to productivity as a developer?
         
-		Similar to the above, but used the WorkChallenges column.
+		Similar to the above, but used the WorkChallenges column. The question asks 'Select up to 3', implying
+		that a null value in the response column could indicate a valid answer. Therefore when calculating the
+		proportion, I did not drop the rows with null values.
 		
 https://miro.medium.com/max/721/1*londEZaphYaTy31SMpQIrA.png
 		

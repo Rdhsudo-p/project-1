@@ -97,7 +97,7 @@ https://miro.medium.com/max/721/1*M7ZxYMaHqCbYPdxj4kwFTg.png
 		that a null value in the response column could indicate a valid answer. Therefore when calculating the
 		proportion, I did not drop the rows with null values.
 		
-https://miro.medium.com/max/721/1*londEZaphYaTy31SMpQIrA.png
+https://miro.medium.com/max/839/1*87P9XljwyFnjwnWtr_unGA.jpeg
 		
 Evaluation
 
